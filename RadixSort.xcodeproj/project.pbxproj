@@ -10,6 +10,20 @@
 		B37BB077248E85CE00DAFB17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37BB076248E85CE00DAFB17 /* main.cpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		B37BB07D248E85DD00DAFB17 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.intel.compilers.icc.latest;
+			fileType = sourcecode.cpp;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		B37BB071248E85CE00DAFB17 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -74,6 +88,7 @@
 				B37BB071248E85CE00DAFB17 /* CopyFiles */,
 			);
 			buildRules = (
+				B37BB07D248E85DD00DAFB17 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
